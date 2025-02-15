@@ -27,7 +27,7 @@ namespace WebSiteHocTiengNhat.Repository
         public async Task UpdateAsync(FlashCard FlashCard)
         {
             _context.FlashCards.Update(FlashCard);
-            await _context.SaveChangesAsync();
+            //await _context.SaveChangesAsync();
         }
         public async Task DeleteAsync(int id)
         {

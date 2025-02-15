@@ -15,7 +15,7 @@ namespace WebSiteHocTiengNhat.Repository
         {
             return await _context.Lessons.ToListAsync();
         }
-        public async Task<Lesson> GetByIdAsync(int id)
+        public async Task<Lesson> GetByIdAsync(int? id)
         {
             return await _context.Lessons.FindAsync(id);
         }

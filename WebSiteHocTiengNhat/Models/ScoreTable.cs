@@ -27,7 +27,6 @@ namespace WebSiteHocTiengNhat.Models
         [JsonIgnore]
         public Exercise? Exercise { get; set; }
 
-
         [Required]
         public int Score { get; set; }
     }

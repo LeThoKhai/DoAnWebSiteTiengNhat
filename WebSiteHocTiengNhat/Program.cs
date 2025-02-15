@@ -33,6 +33,9 @@ builder.Services.AddScoped<IUserCourseRepository,EFUserCourseRepository>();
 builder.Services.AddScoped<IFlashCardRepository, EFFlashCardRepository>();
 builder.Services.AddScoped<ICommentRepository, EFCommentRepository>();
 builder.Services.AddScoped<IScoreTableRepository, EFScoreTableRepository>();
+builder.Services.AddScoped<ICategoryQuestionRepository, EFCategoryQuestionRepository>();
+builder.Services.AddScoped<IAI_Repository, EFAI_Repository>();
+builder.Services.AddHttpClient<MyMemoryTranslationService>();
 
 
 builder.Services.AddEndpointsApiExplorer();

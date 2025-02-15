@@ -7,7 +7,7 @@ namespace WebSiteHocTiengNhat.Models
     public class FlashCard
     {
         [Key]
-        public int CardId { get; set; }
+        public int? CardId { get; set; }
         [Required]
         public string? CardName { get; set; }
         [Required]

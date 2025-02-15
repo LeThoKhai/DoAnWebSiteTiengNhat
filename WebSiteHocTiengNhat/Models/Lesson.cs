@@ -12,7 +12,8 @@ namespace WebSiteHocTiengNhat.Models
         public int LessonId { get; set; }
         [Required]
         public string LessonName { get; set; }
-
+        [Required]
+        public string? Link { get; set; }
         [Required]
         [ForeignKey("Category")]
         public int CategoryId { get; set; }
@@ -25,7 +26,7 @@ namespace WebSiteHocTiengNhat.Models
 
         [Required]
         [ForeignKey("Course")]
-        public int CourseId { get; set; }
+        public int? CourseId { get; set; }
         [JsonIgnore]
         public Course? Course { get; set; }
 

@@ -91,7 +91,6 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
             return View(flashCard); // Truyền model vào view
         }
 
-
         [HttpPost]
         public async Task<IActionResult> Create(FlashCard flashcard)
         {
