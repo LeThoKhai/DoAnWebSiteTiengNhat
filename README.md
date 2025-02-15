@@ -10,11 +10,11 @@
 - **Học tập**: Hiển thị nội dung bài học, bài tập và tạo flashcard.
 - **Hệ thống bài kiểm tra**: Làm bài trắc nghiệm, hiển thị kết quả, thống kê tiến độ học tập.
 - **Tích hợp AI**: Trò chuyện với AI (sử dụng Gemini API).
-- **Quản trị dữ liệu**: CRUD API cho người dùng, khóa học, bài học, bài tập, điểm số, câu hỏi và flashcard.
+- **Quản trị dữ liệu**: CRUD API cho người dùng, khóa học, bài học, bài tập, điểm số, câu hỏi và flashcard...
 
 ## 🛠️ Công nghệ sử dụng
 - **Backend**: ASP.NET Core
 - **Cơ sở dữ liệu**: SQL Server
 - **Frontend**: Flutter
-- **API tích hợp**: Gemini API
+- **API tích hợp**: Gemini API, llama3.2:3B
 
