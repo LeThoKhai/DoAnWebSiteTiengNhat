@@ -18,3 +18,5 @@
 - **Frontend**: Flutter
 - **API tích hợp**: Gemini API, llama3.2:3B
 
+## Lưu ý
+- **Cần cài đặt framework ollama và model llama3.2:3B để chay các chức năng AI**
